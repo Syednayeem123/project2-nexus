@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles1.css">
+  <title>Nayeem Kitchen - Login and Signup</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://mindfuldesignconsulting.com/wp-content/uploads/2016/05/Diamond-Shaped-Details-in-Restaurant-Design.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Arial', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="form-container">
+      <form id="loginForm">
+        <h2>Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <button type="button" onclick="login()">Login</button>
+      </form>
+    </div>
+
+    <div class="form-container">
+      <form id="signupForm">
+        <h2>Sign Up</h2>
+        <label for="newUsername">Username:</label>
+        <input type="text" id="newUsername" required>
+        <label for="newPassword">Password:</label>
+        <input type="password" id="newPassword" required>
+        <button type="button" onclick="signup()">Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
